@@ -1,0 +1,1845 @@
+fileFormatVersion: 2
+guid: 666ec80a433b20641b106771eb3585ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3264275013523142781
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_0
+  - first:
+      213: -5479008471180619091
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_1
+  - first:
+      213: 909065306747252356
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_2
+  - first:
+      213: 6319473027226084910
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_3
+  - first:
+      213: -8283139750595786318
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_4
+  - first:
+      213: 1821265635035699888
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_5
+  - first:
+      213: 9117702911025334468
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_6
+  - first:
+      213: -6061682244010503460
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_7
+  - first:
+      213: 6092236333886876668
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_8
+  - first:
+      213: -2496594392544630405
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_9
+  - first:
+      213: 5608934187818772824
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_10
+  - first:
+      213: 188260452170504924
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_11
+  - first:
+      213: -4156961308608448376
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_12
+  - first:
+      213: -7148028808142967727
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_13
+  - first:
+      213: -5465580782903414453
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_14
+  - first:
+      213: 2498364263291502258
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_15
+  - first:
+      213: -7980110976658284784
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_16
+  - first:
+      213: 7145509234976761001
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_17
+  - first:
+      213: -5459547707069923178
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_18
+  - first:
+      213: 9102360713208863399
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_19
+  - first:
+      213: -8088457042229796460
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_20
+  - first:
+      213: 2868788752159347534
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_21
+  - first:
+      213: -5577609310601459883
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_22
+  - first:
+      213: 1472214711428733515
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_23
+  - first:
+      213: 7982211016925858383
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_24
+  - first:
+      213: 4504733328537954382
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_25
+  - first:
+      213: 8144509007424871678
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_26
+  - first:
+      213: -6788901914339859715
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_27
+  - first:
+      213: 8200547770477812576
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_28
+  - first:
+      213: 1008901348855497155
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_29
+  - first:
+      213: 4103989999944798749
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_30
+  - first:
+      213: 6557398216224879468
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_31
+  - first:
+      213: -7392768304828907466
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_32
+  - first:
+      213: -109423181021493066
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_33
+  - first:
+      213: 5308258407516169159
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_34
+  - first:
+      213: -8268687022327332850
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_35
+  - first:
+      213: -5955136525966811046
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_36
+  - first:
+      213: 3717814905215984577
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_37
+  - first:
+      213: 9022220571808479040
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_38
+  - first:
+      213: 7896182227975054846
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_39
+  - first:
+      213: 1015988809956673910
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_40
+  - first:
+      213: 9112542118361511893
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_41
+  - first:
+      213: -2706860541159054750
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_42
+  - first:
+      213: 5643212960286256741
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_43
+  - first:
+      213: 7462816066140481963
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_44
+  - first:
+      213: -6879203108894319313
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_45
+  - first:
+      213: -4847602137247198060
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_46
+  - first:
+      213: 7968177936328501501
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_47
+  - first:
+      213: 123372667047361721
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_48
+  - first:
+      213: -5439558665874282831
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_49
+  - first:
+      213: -2324716596097121597
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_50
+  - first:
+      213: 2127151855880860563
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_51
+  - first:
+      213: 4907544965552931085
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_52
+  - first:
+      213: -3987567675237620898
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_53
+  - first:
+      213: 4362568585176105231
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_54
+  - first:
+      213: -8897424603612383630
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_55
+  - first:
+      213: 3092174884493621521
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_56
+  - first:
+      213: -2020210554815789973
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_57
+  - first:
+      213: -2658808660091528176
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_58
+  - first:
+      213: 30826912019678973
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_59
+  - first:
+      213: 4053043594584412158
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_60
+  - first:
+      213: -329835090677009349
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_61
+  - first:
+      213: -4115411150966639580
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_62
+  - first:
+      213: 280942791999045861
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_63
+  - first:
+      213: 5451843278099596709
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_64
+  - first:
+      213: 1194908860530383319
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_65
+  - first:
+      213: -3250648366441531711
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_66
+  - first:
+      213: -2383926012740754234
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_67
+  - first:
+      213: 8112289963131038190
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_68
+  - first:
+      213: -7910515713416168548
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_69
+  - first:
+      213: 2360040547854637710
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_70
+  - first:
+      213: -7046769800605886371
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_71
+  - first:
+      213: -236093836759250324
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_72
+  - first:
+      213: -2717298962686859572
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_73
+  - first:
+      213: -142990310930518517
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_74
+  - first:
+      213: 6827103691799949577
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_75
+  - first:
+      213: 7077879511278640228
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_76
+  - first:
+      213: -7898419034996475674
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_77
+  - first:
+      213: 4247872023731513104
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_78
+  - first:
+      213: -499779553553961553
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_79
+  - first:
+      213: 2808893396702209652
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_80
+  - first:
+      213: -5056212716652155064
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_81
+  - first:
+      213: -1610316971005544224
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_82
+  - first:
+      213: -2534805404038009533
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_83
+  - first:
+      213: 2176824938738290298
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_84
+  - first:
+      213: 5938182431901520989
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_85
+  - first:
+      213: 6226932650962192099
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_86
+  - first:
+      213: 2571381358512147691
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_87
+  - first:
+      213: 4057203088228917222
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_88
+  - first:
+      213: -6391663330950269165
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_89
+  - first:
+      213: -7340862973105213107
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_90
+  - first:
+      213: -8434638962413123672
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_91
+  - first:
+      213: -7996617451555536415
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_92
+  - first:
+      213: 8993934792194307517
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_93
+  - first:
+      213: -3916912971853097212
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_94
+  - first:
+      213: -2521804854351399758
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_95
+  - first:
+      213: -7457689696459614782
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_96
+  - first:
+      213: -491712696156998690
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_97
+  - first:
+      213: 7645812944701583441
+    second: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_98
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 809
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38705c98b27f2b2d0800000000000000
+      internalID: -3264275013523142781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 809
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da25ce113d6a6f3b0800000000000000
+      internalID: -5479008471180619091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 809
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e2d4e7416ad9c00800000000000000
+      internalID: 909065306747252356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_3
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 809
+        width: 52
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26297b7c3743b750800000000000000
+      internalID: 6319473027226084910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_4
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 807
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b902d468406c0d80800000000000000
+      internalID: -8283139750595786318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_5
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 804
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0badde1127f664910800000000000000
+      internalID: 1821265635035699888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 802
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8c53b6d76988e70800000000000000
+      internalID: 9117702911025334468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_7
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 800
+        width: 53
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd216708d1490eba0800000000000000
+      internalID: -6061682244010503460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_8
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 799
+        width: 52
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb2e09eaa8fb8450800000000000000
+      internalID: 6092236333886876668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_9
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 804
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b792524a0a05a5dd0800000000000000
+      internalID: -2496594392544630405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_10
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 806
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8596b792defe6dd40800000000000000
+      internalID: 5608934187818772824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_11
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 804
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda90e042e5dc9200800000000000000
+      internalID: 188260452170504924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_12
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 803
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888b95fd6b18f46c0800000000000000
+      internalID: -4156961308608448376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_13
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 800
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c216ebba91dcc90800000000000000
+      internalID: -7148028808142967727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_14
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 801
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4137df5c3b5624b0800000000000000
+      internalID: -5465580782903414453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_15
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 802
+        width: 62
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be35018f09fba220800000000000000
+      internalID: 2498364263291502258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_31
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 576
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c633dd06fee800b50800000000000000
+      internalID: 6557398216224879468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_32
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 578
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63008e3356c976990800000000000000
+      internalID: -7392768304828907466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_33
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 578
+        width: 60
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8450552304b7ef0800000000000000
+      internalID: -109423181021493066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_34
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 578
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c36bf3b5e8baa940800000000000000
+      internalID: 5308258407516169159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_35
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 578
+        width: 60
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e000c4b66f8bf3d80800000000000000
+      internalID: -8268687022327332850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_36
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 578
+        width: 60
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a506bcc91ea1b5da0800000000000000
+      internalID: -5955136525966811046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_37
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 464
+        width: 61
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c32d0e55f4589330800000000000000
+      internalID: 3717814905215984577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_38
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 465
+        width: 62
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047bddbeecd553d70800000000000000
+      internalID: 9022220571808479040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_39
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 465
+        width: 62
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5a43c86efd49d60800000000000000
+      internalID: 7896182227975054846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_40
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 466
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6794d319074891e00800000000000000
+      internalID: 1015988809956673910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_41
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 466
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d739bdb6c0467e70800000000000000
+      internalID: 9112542118361511893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_42
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 466
+        width: 60
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26261bbedac4f6ad0800000000000000
+      internalID: -2706860541159054750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_43
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 468
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e2eb1d948b05e40800000000000000
+      internalID: 5643212960286256741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_44
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 469
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9a1662caf319760800000000000000
+      internalID: 7462816066140481963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_45
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 466
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d579458392880a0800000000000000
+      internalID: -6879203108894319313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_46
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 464
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494d4f43a8bd9bcb0800000000000000
+      internalID: -4847602137247198060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_47
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 464
+        width: 60
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df827f9ad97a49e60800000000000000
+      internalID: 7968177936328501501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_48
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 465
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcb95a79ce46b100800000000000000
+      internalID: 123372667047361721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_49
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 465
+        width: 63
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b66aa1a63ec284b0800000000000000
+      internalID: -5439558665874282831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_50
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 466
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c20d2e9292fcbfd0800000000000000
+      internalID: -2324716596097121597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_67
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 235
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c426c70ce79aeed0800000000000000
+      internalID: -2383926012740754234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_68
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 235
+        width: 52
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9646f9db4a49070800000000000000
+      internalID: 8112289963131038190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_69
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 233
+        width: 57
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bfeafced3383290800000000000000
+      internalID: -7910515713416168548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_70
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 235
+        width: 52
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ad46ecf5c80c020800000000000000
+      internalID: 2360040547854637710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_71
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 236
+        width: 49
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d589fe4a338d43e90800000000000000
+      internalID: -7046769800605886371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_72
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 235
+        width: 51
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a4e4608e939bcf0800000000000000
+      internalID: -236093836759250324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_73
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 235
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc623848df63a4ad0800000000000000
+      internalID: -2717298962686859572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_74
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 235
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ee9aed11ff30ef0800000000000000
+      internalID: -142990310930518517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_75
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 235
+        width: 51
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9017e7ad2aebebe50800000000000000
+      internalID: 6827103691799949577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_76
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 124
+        width: 56
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c57c05aeda93260800000000000000
+      internalID: 7077879511278640228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_77
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 120
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8f9db3cbd236290800000000000000
+      internalID: -7898419034996475674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_78
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 119
+        width: 53
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01726d1791973fa30800000000000000
+      internalID: 4247872023731513104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_79
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 121
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fada96cd42d6019f0800000000000000
+      internalID: -499779553553961553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_80
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 125
+        width: 60
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476206289a13bf620800000000000000
+      internalID: 2808893396702209652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_81
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 123
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fa22bb259b4d9b0800000000000000
+      internalID: -5056212716652155064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_82
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 121
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e87e672f3107a9e0800000000000000
+      internalID: -1610316971005544224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_83
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 119
+        width: 55
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34de29d3aef82dcd0800000000000000
+      internalID: -2534805404038009533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_84
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 118
+        width: 56
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e05bb9fb2a53e10800000000000000
+      internalID: 2176824938738290298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_85
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 117
+        width: 56
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5494f0c579a86250800000000000000
+      internalID: 5938182431901520989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_86
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 120
+        width: 53
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e602ec11428a6650800000000000000
+      internalID: 6226932650962192099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_87
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 123
+        width: 54
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec8d28c8b16fa320800000000000000
+      internalID: 2571381358512147691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_88
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 123
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef908776b41e4830800000000000000
+      internalID: 4057203088228917222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_89
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 6
+        width: 67
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317b1d2a0104c47a0800000000000000
+      internalID: -6391663330950269165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_90
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 10
+        width: 72
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41fe3ff404002a90800000000000000
+      internalID: -7340862973105213107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_91
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 8
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a742b46d8422fa80800000000000000
+      internalID: -8434638962413123672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_92
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 7
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1c753bbce460190800000000000000
+      internalID: -7996617451555536415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_93
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 7
+        width: 80
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5b4c5aa00e0dc70800000000000000
+      internalID: 8993934792194307517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_94
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 4
+        width: 85
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4079390a76454a9c0800000000000000
+      internalID: -3916912971853097212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_95
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 13
+        width: 102
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4778798dfb00dd0800000000000000
+      internalID: -2521804854351399758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_96
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 12
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c51f6dcbb6f08890800000000000000
+      internalID: -7457689696459614782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_97
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 8
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3330678e51d29f0800000000000000
+      internalID: -491712696156998690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_98
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1
+        width: 98
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150750c2d526b1a60800000000000000
+      internalID: 7645812944701583441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
