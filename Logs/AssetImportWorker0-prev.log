@@ -1,0 +1,929 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1081; Version 2009; 64bit' Language: 'en' Physical Memory: 16234 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/CODES/CS427 - Game/2D Midterm Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53281
+Successfully changed project path to: D:/CODES/CS427 - Game/2D Midterm Project
+D:/CODES/CS427 - Game/2D Midterm Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/CODES/CS427 - Game/2D Midterm Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.14.7111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001966 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.675 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 2.352300 ms (FindLiveObjects: 0.204100 ms CreateObjectMapping: 0.071700 ms MarkObjects: 1.956900 ms  DeleteObjects: 0.118700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png
+  artifactKey: Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png using Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56125f0e179fa04798d7ad448fa82133') in 0.132706 seconds
+  Import took 0.138005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png
+  artifactKey: Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png using Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d02b32859efb5e062d8fa2d6388f91a') in 0.071708 seconds
+  Import took 0.077285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png
+  artifactKey: Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png using Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56125f0e179fa04798d7ad448fa82133') in 0.034319 seconds
+  Import took 0.038751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png
+  artifactKey: Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png using Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d02b32859efb5e062d8fa2d6388f91a') in 0.032618 seconds
+  Import took 0.037118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.339219 seconds.
+  path: Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png
+  artifactKey: Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png using Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2221e374d4ab4518cfa2cce34140677f') in 0.012531 seconds
+  Import took 0.017144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.334445 seconds.
+  path: Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png
+  artifactKey: Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png using Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3542d2b31f72fda23f6abfc32e91f165') in 0.032728 seconds
+  Import took 0.036792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.074420 seconds.
+  path: Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png
+  artifactKey: Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png using Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976f957f348783f684b81d6596c703b2') in 0.042902 seconds
+  Import took 0.046761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.494469 seconds.
+  path: Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png
+  artifactKey: Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png using Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad5c4fdd9a063d9704301a4484f04b5') in 0.018895 seconds
+  Import took 0.022832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.006107 seconds.
+  path: Assets/Dungeon Tiles_1.asset
+  artifactKey: Guid(9d803b89c6ee64b4db4ca11897e054c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tiles_1.asset using Guid(9d803b89c6ee64b4db4ca11897e054c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32dff56b16aff51ce7cb86465745d4fd') in 0.026876 seconds
+  Import took 0.030455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.441193 seconds.
+  path: Assets/Dungeon Tiles_2.asset
+  artifactKey: Guid(a09a5ff9bf4569c4ca4e9ebb4659a5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tiles_2.asset using Guid(a09a5ff9bf4569c4ca4e9ebb4659a5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231accce6dd669d9b053a913fbcbdc80') in 0.018337 seconds
+  Import took 0.021529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.660615 seconds.
+  path: Assets/Dungeon Tiles_3.asset
+  artifactKey: Guid(8d8b2eccdd313ca49950977d92f634c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tiles_3.asset using Guid(8d8b2eccdd313ca49950977d92f634c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992095aac307f16a4a3ae1e64b8eaf29') in 0.018998 seconds
+  Import took 0.022708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.730990 seconds.
+  path: Assets/Dungeon Tiles_4.asset
+  artifactKey: Guid(e15c6bffc6df87e42a53362fb797306e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tiles_4.asset using Guid(e15c6bffc6df87e42a53362fb797306e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0477d968943b75ef482555fc23a2753d') in 0.020909 seconds
+  Import took 0.026423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.653273 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.006666 seconds
+  Import took 0.009833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.572723 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(c04e4f42098267e4188389fba74562d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(c04e4f42098267e4188389fba74562d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fdc37c7011c82abdbd2d838188bb53') in 0.007182 seconds
+  Import took 0.010291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.369378 seconds.
+  path: Assets/Scripts/ImageTool.cs
+  artifactKey: Guid(1394230686888cd43a8f68109df2274a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ImageTool.cs using Guid(1394230686888cd43a8f68109df2274a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9504bd837980a522ee395b9d3ec92892') in 0.020875 seconds
+  Import took 0.024047 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2537.
+Total: 2.192100 ms (FindLiveObjects: 0.185400 ms CreateObjectMapping: 0.068400 ms MarkObjects: 1.842400 ms  DeleteObjects: 0.095100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.699317 seconds.
+  path: Assets/Scripts/ImageTool.cs
+  artifactKey: Guid(1394230686888cd43a8f68109df2274a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ImageTool.cs using Guid(1394230686888cd43a8f68109df2274a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2071ff6dc03272c326718ff1e44978') in 0.005569 seconds
+  Import took 0.009307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.700826 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(c04e4f42098267e4188389fba74562d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(c04e4f42098267e4188389fba74562d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e978313f6e20c6145114e2dcd2946fc') in 0.006680 seconds
+  Import took 0.010558 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002925 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2541.
+Total: 2.107000 ms (FindLiveObjects: 0.195900 ms CreateObjectMapping: 0.083100 ms MarkObjects: 1.731200 ms  DeleteObjects: 0.096000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.690718 seconds.
+  path: Assets/Editor/ImageTool.cs
+  artifactKey: Guid(1394230686888cd43a8f68109df2274a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/ImageTool.cs using Guid(1394230686888cd43a8f68109df2274a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f30773118908dd99784114cd7e61f4') in 0.004280 seconds
+  Import took 0.007738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.295736 seconds.
+  path: Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png
+  artifactKey: Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png using Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe856e25c185d21428b0e1ccfeeb9c7') in 0.081934 seconds
+  Import took 0.085968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001670 seconds.
+  path: Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png
+  artifactKey: Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png using Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe856e25c185d21428b0e1ccfeeb9c7') in 0.020075 seconds
+  Import took 0.023758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.544142 seconds.
+  path: Assets/AlphaImages
+  artifactKey: Guid(dd97986edab6de748aecbdaa0d2fbd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages using Guid(dd97986edab6de748aecbdaa0d2fbd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f2197dcce0ace27dc6f5bfd4748db0') in 0.006452 seconds
+  Import took 0.010313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.151894 seconds.
+  path: Assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png
+  artifactKey: Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png using Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4ea8029a3fc8646a208b1c4023c6dc') in 0.033461 seconds
+  Import took 0.038110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001087 seconds.
+  path: Assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png
+  artifactKey: Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png using Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4ea8029a3fc8646a208b1c4023c6dc') in 0.019404 seconds
+  Import took 0.023620 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2547.
+Total: 2.332300 ms (FindLiveObjects: 0.202200 ms CreateObjectMapping: 0.075000 ms MarkObjects: 1.953300 ms  DeleteObjects: 0.100900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.434877 seconds.
+  path: Assets/ImageTool.cs
+  artifactKey: Guid(596a6fd9394fb4e40bef5c12dbc088db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageTool.cs using Guid(596a6fd9394fb4e40bef5c12dbc088db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367a9c6ad411418e27a070ea5c92ff58') in 0.005323 seconds
+  Import took 0.009293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026810 seconds.
+  path: Assets/ImageTool.cs
+  artifactKey: Guid(596a6fd9394fb4e40bef5c12dbc088db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageTool.cs using Guid(596a6fd9394fb4e40bef5c12dbc088db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367a9c6ad411418e27a070ea5c92ff58') in 0.002230 seconds
+  Import took 0.005518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.433321 seconds.
+  path: Assets/Tilemap
+  artifactKey: Guid(5950aab497d53df48a6f3d94b84521a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap using Guid(5950aab497d53df48a6f3d94b84521a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134f28f1dfc3b734c524bd371b8adebe') in 0.006948 seconds
+  Import took 0.010784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.544410 seconds.
+  path: Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png
+  artifactKey: Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png using Guid(aac9ab76f21aa6b48b0e9b26217ae6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c21def08f22b488d8a0f07091f0b82') in 0.060434 seconds
+  Import took 0.064363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 268.101362 seconds.
+  path: Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png
+  artifactKey: Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png using Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d346cb10e232221753a192034956e5e') in 0.024411 seconds
+  Import took 0.028972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.163986 seconds.
+  path: Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png
+  artifactKey: Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png using Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8c4f954e5bc8e72b5e2deef36be57e') in 0.014927 seconds
+  Import took 0.018402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.300049 seconds.
+  path: Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png
+  artifactKey: Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png using Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982e028e4febec5a712bffbf2572b82a') in 0.025186 seconds
+  Import took 0.028903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.200150 seconds.
+  path: Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png
+  artifactKey: Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png using Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6bf90de4bae1fabc62dd8d2a97cdeb') in 0.029190 seconds
+  Import took 0.032861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.563682 seconds.
+  path: Assets/AlphaImages/Dungeon Tiles_alpha_1.asset
+  artifactKey: Guid(cbcfa1805290db743a0b83655e1c8861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/Dungeon Tiles_alpha_1.asset using Guid(cbcfa1805290db743a0b83655e1c8861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25100aca9aa92f1a01d12fbf4c7b05be') in 0.029437 seconds
+  Import took 0.034515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.191474 seconds.
+  path: Assets/AlphaImages/Dungeon Tiles_alpha_2.asset
+  artifactKey: Guid(4305db7c44545504a8fab8bd241d6359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/Dungeon Tiles_alpha_2.asset using Guid(4305db7c44545504a8fab8bd241d6359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d75b0cba8de121369517b88ff93ce72') in 0.020990 seconds
+  Import took 0.024155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.815290 seconds.
+  path: Assets/AlphaImages/Dungeon Tiles_alpha_3.asset
+  artifactKey: Guid(d32c92bf17635b047b5e34d153bf4d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/Dungeon Tiles_alpha_3.asset using Guid(d32c92bf17635b047b5e34d153bf4d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c02d3fe58ea97077af6c65195ee666e') in 0.020365 seconds
+  Import took 0.024309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.434026 seconds.
+  path: Assets/AlphaImages/Dungeon Tiles_alpha_0.asset
+  artifactKey: Guid(edf0a2ca6ce98714cbb9100a32aa5c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/Dungeon Tiles_alpha_0.asset using Guid(edf0a2ca6ce98714cbb9100a32aa5c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae09d5429e6ebb5afc2acefb2cc391a7') in 0.015778 seconds
+  Import took 0.019687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.469629 seconds.
+  path: Assets/AlphaImages/Dungeon Tiles_alpha_4.asset
+  artifactKey: Guid(6ae20fb8e3fa93c4380a3f3d2d3942c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/Dungeon Tiles_alpha_4.asset using Guid(6ae20fb8e3fa93c4380a3f3d2d3942c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4ca472b531a45f757fc5a62074968f') in 0.020345 seconds
+  Import took 0.025341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.306665 seconds.
+  path: Assets/AlphaImages/Dungeon Tiles_alpha_5.asset
+  artifactKey: Guid(3567805fdcfd798468d41f0f202894f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/Dungeon Tiles_alpha_5.asset using Guid(3567805fdcfd798468d41f0f202894f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8f257efbb5ffe122d905ff2f8a0ef6') in 0.015947 seconds
+  Import took 0.019478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.587193 seconds.
+  path: Assets/AlphaImages/Dungeon Tiles_alpha_6.asset
+  artifactKey: Guid(ead41c86235f7d64fb7534717e5c8287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/Dungeon Tiles_alpha_6.asset using Guid(ead41c86235f7d64fb7534717e5c8287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb6e6c93da797d168b6c0e0497f70b0') in 0.019235 seconds
+  Import took 0.023189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 227.349325 seconds.
+  path: Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png
+  artifactKey: Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png using Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a158f2cac9bf38fbfa0f07444d47cc') in 0.034787 seconds
+  Import took 0.038539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.832093 seconds.
+  path: Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png
+  artifactKey: Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png using Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f56ae9803708ad05a2bc63d1d96f3c') in 0.027558 seconds
+  Import took 0.031096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.107740 seconds.
+  path: Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png
+  artifactKey: Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png using Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399f0e24ddb2e3b816f7d908962151c2') in 0.055017 seconds
+  Import took 0.062914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.083844 seconds.
+  path: Assets/AlphaImages/Dungeon Tiles_alpha_7.asset
+  artifactKey: Guid(ef291d46c943c1e47a03cbe0744fb291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/Dungeon Tiles_alpha_7.asset using Guid(ef291d46c943c1e47a03cbe0744fb291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f38f16f2d44e460d7f9d2f87fd8f9e9') in 0.021749 seconds
+  Import took 0.025001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.718307 seconds.
+  path: Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png
+  artifactKey: Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png using Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25bfe5d224bc0064546b6d33c0b6f2e') in 0.051942 seconds
+  Import took 0.056683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.017716 seconds.
+  path: Assets/AlphaImages/Dungeon Tiles_alpha_8.asset
+  artifactKey: Guid(7577491b159ded7448640a01d85408ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/Dungeon Tiles_alpha_8.asset using Guid(7577491b159ded7448640a01d85408ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a934694408602bac8bfeeaf85c11cca') in 0.016039 seconds
+  Import took 0.019604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.683217 seconds.
+  path: Assets/AlphaImages/Dungeon Tiles_alpha_9.asset
+  artifactKey: Guid(a3cee9defa9136b41b884cac0641f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/Dungeon Tiles_alpha_9.asset using Guid(a3cee9defa9136b41b884cac0641f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29b4aa9e7b40ad52c4b5808976a3357') in 0.014918 seconds
+  Import took 0.019385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.353632 seconds.
+  path: Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png
+  artifactKey: Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png using Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c3de3c3e259df435029646710f0efc') in 0.049597 seconds
+  Import took 0.052753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.654302 seconds.
+  path: Assets/AlphaImages/Dungeon Tiles_alpha_10.asset
+  artifactKey: Guid(0553f6f97e660594fb129d60189b24f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/Dungeon Tiles_alpha_10.asset using Guid(0553f6f97e660594fb129d60189b24f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa55cf9f3519e27e501a7bd7f222e0e5') in 0.015960 seconds
+  Import took 0.019450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.247052 seconds.
+  path: Assets/AlphaImages/Dungeon Tiles_alpha_11.asset
+  artifactKey: Guid(3cc24308408b7b647827a113bc800214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/Dungeon Tiles_alpha_11.asset using Guid(3cc24308408b7b647827a113bc800214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4427d2819ad32cf9488498642df515c1') in 0.019131 seconds
+  Import took 0.022934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 524.132440 seconds.
+  path: Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png
+  artifactKey: Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_alpha.png using Guid(05de986adc8a22f4d9a55f24c71d1f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3095447b35229dd370fe2a2b2fb026e') in 0.040775 seconds
+  Import took 0.044702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 458.612441 seconds.
+  path: Assets/Tilemap/Dungeon Tiles_0.asset
+  artifactKey: Guid(b2c66424a4adad74d8d8a2c63d7c257c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Dungeon Tiles_0.asset using Guid(b2c66424a4adad74d8d8a2c63d7c257c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933de6355c650a615f26706f7d7a472f') in 0.025585 seconds
+  Import took 0.029349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Tilemap/room.prefab
+  artifactKey: Guid(8e69e2dc6503af14483bff01c06611cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/room.prefab using Guid(8e69e2dc6503af14483bff01c06611cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092fea6d7a6f821edac31f21a2878e6b') in 0.021257 seconds
+  Import took 0.024447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Tilemap/room 1.prefab
+  artifactKey: Guid(088b5522dfdaa8d44bbf996bf9eb6ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/room 1.prefab using Guid(088b5522dfdaa8d44bbf996bf9eb6ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4483749d3c3c58f8be3f02b1d73640e0') in 0.007678 seconds
+  Import took 0.010895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Tilemap/room 2.prefab
+  artifactKey: Guid(5a7cca2304c12bf40a68117160ff8a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/room 2.prefab using Guid(5a7cca2304c12bf40a68117160ff8a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d43cac8ef318c4f870b10400eb5b5f9') in 0.008736 seconds
+  Import took 0.012641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Tilemap/Dungeon Tiles_alpha_0.asset
+  artifactKey: Guid(6aa1a2676d52d0d4f873ce080a91e776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Dungeon Tiles_alpha_0.asset using Guid(6aa1a2676d52d0d4f873ce080a91e776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3284ff2ae69ecbf828b82a1b86cee09a') in 0.013491 seconds
+  Import took 0.017326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 893.632648 seconds.
+  path: Assets/NES - The Legend of Zelda - Dungeon Tileset.png
+  artifactKey: Guid(1f4aac4b20407a044b952256ef009ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NES - The Legend of Zelda - Dungeon Tileset.png using Guid(1f4aac4b20407a044b952256ef009ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1f5f6dd511c98c23f4ac9256214d8f') in 0.124707 seconds
+  Import took 0.132163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.627311 seconds.
+  path: Assets/NES - The Legend of Zelda - Dungeon Tileset.png
+  artifactKey: Guid(1f4aac4b20407a044b952256ef009ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NES - The Legend of Zelda - Dungeon Tileset.png using Guid(1f4aac4b20407a044b952256ef009ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f6d8a352489bf841ddb78e81e1529f') in 0.025582 seconds
+  Import took 0.030207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022645 seconds.
+  path: Assets/NES - The Legend of Zelda - Dungeon Tileset.png
+  artifactKey: Guid(1f4aac4b20407a044b952256ef009ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NES - The Legend of Zelda - Dungeon Tileset.png using Guid(1f4aac4b20407a044b952256ef009ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f6d8a352489bf841ddb78e81e1529f') in 0.022837 seconds
+  Import took 0.026423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.968089 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e664bb1604035cec3d52d341e3895b5b') in 0.022773 seconds
+  Import took 0.025929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.159153 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d0d4dba20fedc83864b37e2b96de24') in 0.016512 seconds
+  Import took 0.020715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.987089 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59678a018142502317a4ea49b3e3fd27') in 0.066410 seconds
+  Import took 0.070216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.733530 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1822485fbef5a327384a8d8a1e76ea90') in 0.084237 seconds
+  Import took 0.087544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.451453 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8caefa6cce8aeb3a1e640dcf5965a83') in 0.054176 seconds
+  Import took 0.057503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 164.013456 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550fccd233275d84a49232f48bff51f8') in 0.129167 seconds
+  Import took 0.135922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001134 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550fccd233275d84a49232f48bff51f8') in 0.046849 seconds
+  Import took 0.051024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.724451 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha.png
+  artifactKey: Guid(c714c81c87e0a10438754325bfb48bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha.png using Guid(c714c81c87e0a10438754325bfb48bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd039fa1545298f74e9935d9cc1290bcc') in 0.023819 seconds
+  Import took 0.027349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.563464 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha.png
+  artifactKey: Guid(c714c81c87e0a10438754325bfb48bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha.png using Guid(c714c81c87e0a10438754325bfb48bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3562fefc4a8de20dbff2e4bf17117b') in 0.018735 seconds
+  Import took 0.021913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006260 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha.png
+  artifactKey: Guid(c714c81c87e0a10438754325bfb48bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha.png using Guid(c714c81c87e0a10438754325bfb48bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3562fefc4a8de20dbff2e4bf17117b') in 0.020947 seconds
+  Import took 0.024360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.407565 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha_alpha.png
+  artifactKey: Guid(55a83d7304bb27f42aaac8ed80bc0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha_alpha.png using Guid(55a83d7304bb27f42aaac8ed80bc0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767e805a6e10020856df74c9a97b1786') in 0.018457 seconds
+  Import took 0.021589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.711106 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha_alpha.png
+  artifactKey: Guid(55a83d7304bb27f42aaac8ed80bc0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha_alpha.png using Guid(55a83d7304bb27f42aaac8ed80bc0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2a7f7390ac6eb92359de2f63f489e7') in 0.025196 seconds
+  Import took 0.029627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013768 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha_alpha.png
+  artifactKey: Guid(55a83d7304bb27f42aaac8ed80bc0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha_alpha.png using Guid(55a83d7304bb27f42aaac8ed80bc0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2a7f7390ac6eb92359de2f63f489e7') in 0.016332 seconds
+  Import took 0.019812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.503598 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha_alpha.png
+  artifactKey: Guid(55a83d7304bb27f42aaac8ed80bc0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha_alpha.png using Guid(55a83d7304bb27f42aaac8ed80bc0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd5011cbc9a78bd254a81a787676a6c') in 0.028705 seconds
+  Import took 0.032234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.293266 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha_alpha.png
+  artifactKey: Guid(55a83d7304bb27f42aaac8ed80bc0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha_alpha_alpha.png using Guid(55a83d7304bb27f42aaac8ed80bc0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1cdea55559eddfca719170430556f9') in 0.022220 seconds
+  Import took 0.026239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.192378 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset.png
+  artifactKey: Guid(55a83d7304bb27f42aaac8ed80bc0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset.png using Guid(55a83d7304bb27f42aaac8ed80bc0ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3e6fea5a60b290e8f5caa8e9fa811b') in 0.017760 seconds
+  Import took 0.020996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.900099 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faeed62831a521a18ad483de6370afe6') in 0.022577 seconds
+  Import took 0.026128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.662776 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66504914a02f0064ea8fc236ad100570') in 0.023127 seconds
+  Import took 0.029644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006824 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66504914a02f0064ea8fc236ad100570') in 0.029143 seconds
+  Import took 0.032825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.625451 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de897552a022f64f464bfe18cd60b62') in 0.031738 seconds
+  Import took 0.035708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001291 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de897552a022f64f464bfe18cd60b62') in 0.016942 seconds
+  Import took 0.020262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.536247 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset.png
+  artifactKey: Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset.png using Guid(966fbce14f6247546ac699cddaab7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d088efbfb37f101b1e2347665c65afa') in 0.019208 seconds
+  Import took 0.022699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.181427 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(bcaa016d5f0713346986fa9e4c7ef0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(bcaa016d5f0713346986fa9e4c7ef0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf19fd1056faace53a01162318e141c') in 0.023238 seconds
+  Import took 0.026664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.899760 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(bcaa016d5f0713346986fa9e4c7ef0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(bcaa016d5f0713346986fa9e4c7ef0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152c324d640738307bb73483b257420f') in 0.015442 seconds
+  Import took 0.018720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.208923 seconds.
+  path: Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png
+  artifactKey: Guid(bcaa016d5f0713346986fa9e4c7ef0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/NES - The Legend of Zelda - Dungeon Tileset_alpha.png using Guid(bcaa016d5f0713346986fa9e4c7ef0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436dcc1e86785bc1ffc911f7af2ff7e8') in 0.056112 seconds
+  Import took 0.059720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.178608 seconds.
+  path: Assets/AlphaImages/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png
+  artifactKey: Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png using Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f75e80a5433b0e632d9c211a9d2da6') in 0.025623 seconds
+  Import took 0.028895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.783343 seconds.
+  path: Assets/AlphaImages/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png
+  artifactKey: Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png using Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb127d8dc34e1154703a787f9c360ee') in 0.325880 seconds
+  Import took 0.329466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.225678 seconds.
+  path: Assets/AlphaImages/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png
+  artifactKey: Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld.png using Guid(666ec80a433b20641b106771eb3585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eccfbbe973fd868c2daa6668edbdb06') in 0.160924 seconds
+  Import took 0.164872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.001077 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.011166 seconds
+  Import took 0.015636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004044 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.002946 seconds
+  Import took 0.007063 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002965 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.114 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2723.
+Total: 2.463600 ms (FindLiveObjects: 0.239400 ms CreateObjectMapping: 0.098600 ms MarkObjects: 1.994200 ms  DeleteObjects: 0.130100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002882 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2727.
+Total: 2.447600 ms (FindLiveObjects: 0.218500 ms CreateObjectMapping: 0.095900 ms MarkObjects: 2.024400 ms  DeleteObjects: 0.107600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003088 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2731.
+Total: 2.187600 ms (FindLiveObjects: 0.212500 ms CreateObjectMapping: 0.092100 ms MarkObjects: 1.784800 ms  DeleteObjects: 0.097500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002962 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2735.
+Total: 2.669300 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.096400 ms MarkObjects: 2.066900 ms  DeleteObjects: 0.239700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 552.292760 seconds.
+  path: Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png
+  artifactKey: Guid(c1859bde89f79044c965a8d748605caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png using Guid(c1859bde89f79044c965a8d748605caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d0386f0a7d59f005a119586ca13845') in 0.062913 seconds
+  Import took 0.066886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.406145 seconds.
+  path: Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png
+  artifactKey: Guid(c1859bde89f79044c965a8d748605caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png using Guid(c1859bde89f79044c965a8d748605caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1770429937c911f977a484c86b7e42') in 0.012350 seconds
+  Import took 0.015888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.693579 seconds.
+  path: Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png
+  artifactKey: Guid(c1859bde89f79044c965a8d748605caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles.png using Guid(c1859bde89f79044c965a8d748605caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767e3727d5737467ad9df98b889021bd') in 0.023165 seconds
+  Import took 0.026540 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
