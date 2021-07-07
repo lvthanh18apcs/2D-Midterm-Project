@@ -1290,3 +1290,79 @@ System memory in use after: 93.6 MB.
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2739.
 Total: 3.365500 ms (FindLiveObjects: 0.339500 ms CreateObjectMapping: 0.169500 ms MarkObjects: 2.702300 ms  DeleteObjects: 0.152800 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003045 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2743.
+Total: 3.246500 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.104400 ms MarkObjects: 2.692900 ms  DeleteObjects: 0.198200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1734.241139 seconds.
+  path: Assets/CupheadController.cs
+  artifactKey: Guid(8fe94ebb6ab258743bc880b140c94dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CupheadController.cs using Guid(8fe94ebb6ab258743bc880b140c94dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094bac0b83c63deb70aec90db9b1a2c9') in 0.008816 seconds
+  Import took 0.012228 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002806 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2747.
+Total: 2.410900 ms (FindLiveObjects: 0.212500 ms CreateObjectMapping: 0.084200 ms MarkObjects: 2.006200 ms  DeleteObjects: 0.106800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.206069 seconds.
+  path: Assets/AlphaImages/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_89.controller
+  artifactKey: Guid(d07d8083240fb3041a6ccd89dc6da11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlphaImages/PC Computer - Cuphead Dont Deal With the Devil - Cuphead Overworld_89.controller using Guid(d07d8083240fb3041a6ccd89dc6da11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4d30efa582cd200357cc5713e79850') in 0.055683 seconds
+  Import took 0.059572 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003358 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.056 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.6 MB.
+System memory in use after: 93.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2751.
+Total: 2.861900 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.392100 ms  DeleteObjects: 0.118500 ms)
+
