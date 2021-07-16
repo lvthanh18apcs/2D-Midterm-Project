@@ -183,19 +183,23 @@ public class CupheadController : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
             {
+                //SoundManager.playSound("walk");
                 velo.y = speed;
             }
             else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
             {
+                //SoundManager.playSound("walk");
                 velo.x = -speed;
                 flip.y = 180;
             }
             else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
             {
+                //SoundManager.playSound("walk");
                 velo.y = -speed;
             }
             else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
             {
+                //SoundManager.playSound("walk");
                 velo.x = speed;
                 flip.y = 0;
             }
@@ -304,25 +308,32 @@ public class CupheadController : MonoBehaviour
             switch (keyword)
             {
                 case "E3":
+                    SoundManager.playSound("glory");
                     showInfo("Room 3 is unlocked");
                     break;
                 case "E1":
+                    SoundManager.playSound("glory");
                     showInfo("Room 1 is unlocked");
                     break;
                 case "34":
+                    SoundManager.playSound("glory");
                     showInfo("Room 4 is unlocked");
                     break;
                 case "12":
+                    SoundManager.playSound("glory");
                     showInfo("Room 2 is unlocked");
                     break;
                 case "4M":
+                    SoundManager.playSound("glory");
                     showInfo("Main Room is unlocked");
                     break;
                 case "2M":
+                    SoundManager.playSound("glory");
                     showInfo("Main Chest is unlocked");
                     WIN = true;
                     break;
                 default:
+                    SoundManager.playSound("dump");
                     break;
             }
         }
@@ -334,6 +345,9 @@ public class CupheadController : MonoBehaviour
     {
         if (WIN && chest == "WINCHEST")
         {
+            Freeze = true;
+            SoundManager.playSound("glory");
+            SoundManager.playSound("bravo");
             anim.SetBool("win", true);
             openChest(chest);
         }
@@ -343,6 +357,7 @@ public class CupheadController : MonoBehaviour
         index = -1;
         chestName = "";
         string chestStatus = GameObject.Find(chest).GetComponent<SpriteRenderer>().sprite.name;
+        SoundManager.playSound("hit");
         if (chestStatus == "Items_3" || chestStatus == "Items_0")
         {
             showInfo("I have already looted this chest");
@@ -357,7 +372,7 @@ public class CupheadController : MonoBehaviour
                 chestName = chest;
                 break;
             }
-        if (index == -1)
+        if (index == -1 && chest == "WINCHEST")
         {
             showInfo("There must be something in here");
             return;

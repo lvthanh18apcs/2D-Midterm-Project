@@ -66,7 +66,11 @@ namespace Story
             if (count == plot.Count - 1)
                 button.GetComponentInChildren<UnityEngine.UI.Text>().text = "X";
             if (count == plot.Count)
+            {
                 Hide();
+                if (plot.Count > 1)
+                    SoundManager.playSound("intro");
+            }
             else
                 lines.text = plot[count];
         }
