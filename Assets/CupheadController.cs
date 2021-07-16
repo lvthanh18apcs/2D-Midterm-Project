@@ -135,12 +135,39 @@ public class CupheadController : MonoBehaviour
         pos.Add(new Vector3(38 + x_offset, -12 + y_offset));
         pos.Add(new Vector3(57 + x_offset, -12 + y_offset));
 
+        //key chest
         lib.Add(new Pair("E3", "3E", "Chemistry", "What animal is made up of calcium, nickel and neon?", "CaNiNe"));
-        lib.Add(new Pair("E1", "1E", "Mathematics I", "I am an odd number. Take away one letter and I become even. What number am I?", "seven"));
+        lib.Add(new Pair("E1", "1E", "Mathematics", "I am an odd number. Take away one letter and I become even. What number am I?", "seven"));
         lib.Add(new Pair("34", "43", "Physics", "Why is a physics book always unhappy?", "lots of problems"));
-        lib.Add(new Pair("12", "21", "Mathematics III", "If 72 x 96 = 6927, 58 x 87 = 7885, then 79 x 86 = ?", "6897"));
+        lib.Add(new Pair("12", "21", "Mathematics", "If 72 x 96 = 6927, 58 x 87 = 7885, then 79 x 86 = ?", "6897"));
         lib.Add(new Pair("2M", "M2", "Tricky riddle", "Who has the fish?", "Albert Einstein"));
-        lib.Add(new Pair("4M", "M4", "Mathematics II", "Look at this series: 53, 53, 40, 40, 27, 27, … What number should come next?", "14"));
+        lib.Add(new Pair("4M", "M4", "Mathematics", "Look at this series: 53, 53, 40, 40, 27, 27, ï¿½ What number should come next?", "14"));
+
+        //hint chest
+        lib.Add(new Pair("II", "II", "Mathematics", "A farmer has 17 sheep and all but 9 die. How many are left?", "9"));
+        lib.Add(new Pair("NN", "NN", "Science", "What is full of holes but still holds water?", "sponge"));
+        lib.Add(new Pair("SS", "SS", "Mathematics", "If twoï¿½s company and threeï¿½s a crowd, what are four and five?", "9"));
+        lib.Add(new Pair("YY", "YY", "Geography", "I am a rock bigger than Venus but smaller than Uranus. What am I?", "Earth"));
+
+        //dummy chest
+        lib.Add(new Pair("", "", "Physics", "What planet has the shortest year?", "Mercury"));
+        lib.Add(new Pair("", "", "", "", ""));
+        lib.Add(new Pair("", "", "", "", ""));
+        lib.Add(new Pair("", "", "", "", ""));
+        lib.Add(new Pair("", "", "Chemistry", "What is the most uninteresting of all the periodic elements?", "Boron"));
+        lib.Add(new Pair("", "", "Chemistry", "What can eat a lot of iron without getting sick?", "rust"));
+        lib.Add(new Pair("", "", "Mathematics", "How many sides does a circle have?", "2"));
+        lib.Add(new Pair("", "", "Biology", "What animal lives longest in zoos?", "turtle"));
+        lib.Add(new Pair("", "", "Chemistry", "What kind of chemical element hates to be a follower?", "Lead"));
+        lib.Add(new Pair("", "", "", "", ""));
+        lib.Add(new Pair("", "", "Mathematics", "I am a three-digit number. My tens digit is six more than my ones digit. My hundreds digit is eight less than my tens digit. What number am I?", "193"));
+        lib.Add(new Pair("", "", "", "", ""));
+        lib.Add(new Pair("", "", "", "", ""));
+        lib.Add(new Pair("", "", "", "", ""));
+        lib.Add(new Pair("", "", "", "", ""));
+        /*
+         lib.Add(new Pair("","","Mathematics IV","You have 50 biscuits. How many times can you subtract 5 from 50 biscuits?","once"));
+         */
 
         rooms.Add("EntranceRoom"); rooms.Add("MainRoom");
         rooms.Add("Room1"); rooms.Add("Room2");
@@ -331,6 +358,18 @@ public class CupheadController : MonoBehaviour
                     SoundManager.playSound("glory");
                     showInfo("Main Chest is unlocked");
                     WIN = true;
+                    break;
+                case "II":
+                    showInfo("The Swede keeps dogs.");
+                    break;
+                case "NN":
+                    showInfo("The Pall Mall smoker keeps birds.");
+                    break;
+                case "SS":
+                    showInfo("The German smokes Prince.");
+                    break;
+                case "YY":
+                    showInfo("The Norwegian lives next to the blue house.");
                     break;
                 default:
                     SoundManager.playSound("dump");
