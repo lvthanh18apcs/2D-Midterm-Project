@@ -15,7 +15,6 @@ namespace EasyUI.Dialogs
         [SerializeField] UnityEngine.UI.Text question;
         [SerializeField] UnityEngine.UI.Button button;
         [SerializeField] GameObject canvas;
-        [SerializeField] UnityEngine.UI.InputField input;
 
         GameObject player;
         GameObject cam;
@@ -31,11 +30,6 @@ namespace EasyUI.Dialogs
             button.onClick.AddListener(Hide);
             player = GameObject.Find("Cuphead");
             cam = GameObject.Find("Main Camera");
-        }
-
-        public void resetInput()
-        {
-            input.text = "";
         }
 
         public DialogUI setTitle(string title)
@@ -63,7 +57,6 @@ namespace EasyUI.Dialogs
             player.GetComponent<CupheadController>().Freeze = false;
             canvas.SetActive(false);
             dialog = new Dialog();
-            resetInput();
         }
 
         private void FixedUpdate()
