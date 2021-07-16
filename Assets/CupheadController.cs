@@ -53,12 +53,12 @@ public class CupheadController : MonoBehaviour
     private void initAnswer()
     {
         lib = new List<Pair>();
-        lib.Add(new Pair("E3", "3E", "Key to Room 3", "Test question", ""));
-        lib.Add(new Pair("E1", "1E", "Key to Room 1", "Test question", ""));
-        lib.Add(new Pair("34", "43", "Key to Room 4", "Test question", ""));
-        lib.Add(new Pair("12", "21", "Key to Room 2", "Test question", ""));
-        lib.Add(new Pair("2M", "M2", "Key to Main Chest", "Test question", ""));
-        lib.Add(new Pair("4M", "M4", "Key to Main Room", "Test question", ""));
+        lib.Add(new Pair("E3", "3E", "Key to Room 3", "What animal is made up of calcium, nickel and neon?", "CaNiNe"));
+        lib.Add(new Pair("E1", "1E", "Key to Room 1", "I am an odd number. Take away one letter and I become even. What number am I?", "seven"));
+        lib.Add(new Pair("34", "43", "Key to Room 4", "Why is a physics book always unhappy?", "lots of problems"));
+        lib.Add(new Pair("12", "21", "Key to Room 2", "If 72 x 96 = 6927, 58 x 87 = 7885, then 79 x 86 = ?", "6897"));
+        lib.Add(new Pair("2M", "M2", "Key to Main Chest", "Who has the fish?", "Albert Einstein"));
+        lib.Add(new Pair("4M", "M4", "Key to Main Room", "Look at this series: 53, 53, 40, 40, 27, 27, … What number should come next?", "14"));
     }
 
     private void FixedUpdate()
@@ -297,12 +297,6 @@ public class CupheadController : MonoBehaviour
             case "M4":
                 if (checkDoorStatus(valid.sprite.name, c_object))
                     Teleport("Room4", false, 2);
-                break;
-            case "FixedDoor":
-                checkDoorStatus(valid.sprite.name,c_object);
-                break;
-            case "StartDoor":
-                Teleport("EntranceRoom", true, -4);
                 break;
             default:
                 hitChest(c_object);
