@@ -381,7 +381,7 @@ public class CupheadController : MonoBehaviour
         if (WIN && chest == "WINCHEST")
         {
             Freeze = true;
-            SoundManager.playSound("glory");
+            SoundManager.playSound("outro");
             SoundManager.playSound("bravo");
             anim.SetBool("win", true);
             openChest(chest);

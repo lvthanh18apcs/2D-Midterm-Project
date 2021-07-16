@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public static AudioClip walk, glory, hit, intro, dump, bravo, outro;
+    public static AudioClip walk, glory, hit, intro, dump, bravo, outro, bg;
     static AudioSource audioSrc;
     // Start is called before the first frame update
     void Start()
     {
+        bg = Resources.Load<AudioClip>("background");
         glory = Resources.Load<AudioClip>("openchest");
         hit = Resources.Load<AudioClip>("hitchest");
         intro = Resources.Load<AudioClip>("intro");
