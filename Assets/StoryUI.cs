@@ -12,34 +12,25 @@ namespace Story
 
         GameObject player;
 
-        StoryUI story = new StoryUI();
-
-        public static StoryUI Instance;
-
         List<string> plot;
         int count = 0;
+        string to_be_seen = "";
+        int i = -1;
 
         void Awake()
         {
-            Instance = this;
             button.onClick.RemoveAllListeners();
-            button.onClick.AddListener(Hide);
+            button.onClick.AddListener(nextPage);
             player = GameObject.Find("Cuphead");
             player.GetComponent<CupheadController>().Freeze = true;
 
             plot = new List<string>();
-            plot.Add("Hello.. I'm a exceptional\nsenior student in high school!\n" +
-                "University entrance exams\n are coming..");
-            plot.Add("I want to have absolute score!\nbecause I'm exceptional\n" +
-                "I have the greatest plan ever");
-            plot.Add("I'M GOING TO STEEEAAAAAAL\nTHE QUESTION SHEETS\nOHH.... shhhhhhhhh\n" +
-                "you're going to help me");
-            plot.Add("I have already stole the key\nto the house\nBut.. eh.. it's open already\n" +
-                "LOOK");
-            plot.Add("We are expected to\nlook for the question sheets\neven if we have to search\n" +
-                "every corner of the house");
-            plot.Add("I heard there are a\nlots of riddles\nwhich are your favourites ;)\n" +
-                "Help me!");
+            plot.Add("Hello..\nI'm a exceptional senior student in high school! And.. You know\nUniversity entrance exams are coming..");
+            plot.Add("I want to have absolute score!\nBecause.. I'm exceptional..\nSo.. I came up with the greatest plan ever..");
+            plot.Add("I'M GOING TO STEEEAAAAAAL\n...THE QUESTION SHEETS...\nOHH.... shhhhhhhhh and you're going to help me ;)");
+            plot.Add("I have already stole the key to the house\nBut.. eh.. it's open already\nLOOK..");
+            plot.Add("We are expected to look for the question sheets even if we have to search every corner of the house.");
+            plot.Add("I heard there are a lots of riddles\n..which are your favourites.. ;)\nHelp me!");
         }
 
         public void Show()
@@ -47,9 +38,22 @@ namespace Story
             canvas.SetActive(true);
         }
 
+        private void FixedUpdate()
+        {
+            if (count < plot.Count && i < plot[count].Length - 1)
+            {
+                player.GetComponent<CupheadController>().Freeze = true;
+                ++i;
+                to_be_seen += plot[count][i];
+                lines.text = to_be_seen;
+            }
+        }
+
         public void nextPage()
         {
-            ++count;
+            if (i < plot[count].Length-1)
+                return;
+            ++count; to_be_seen = ""; i = -1;
             if (count == plot.Count - 1)
             {
                 button.GetComponentInChildren<UnityEngine.UI.Text>().text = "X";
@@ -57,7 +61,7 @@ namespace Story
             if (count == plot.Count)
                 Hide();
             else
-                story.lines.text = plot[count];
+                lines.text = plot[count];
         }
 
         public void Hide()

@@ -192,6 +192,8 @@ public class CupheadController : MonoBehaviour
     private void openDoor(string name)
     {
         SpriteRenderer target = GameObject.Find(name).GetComponent<SpriteRenderer>();
+        if (target == null)
+            return;
         Object[] sprites = Resources.LoadAll("Dungeon_Tileset");
         if (target.sprite.name == tileset_name + "10")
         {
@@ -280,6 +282,8 @@ public class CupheadController : MonoBehaviour
                     break;
             }
         }
+        else
+            showInfo("Stupid riddle.. ugh..");
     }
 
     public void hitChest(string chest)
