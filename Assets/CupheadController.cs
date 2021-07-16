@@ -298,6 +298,12 @@ public class CupheadController : MonoBehaviour
                 if (checkDoorStatus(valid.sprite.name, c_object))
                     Teleport("Room4", false, 2);
                 break;
+            case "FixedDoor":
+                checkDoorStatus(valid.sprite.name,c_object);
+                break;
+            case "StartDoor":
+                Teleport("EntranceRoom", true, -4);
+                break;
             default:
                 hitChest(c_object);
                 break;
