@@ -1,7 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 using EasyUI.Dialogs;
+
+static class ExtensionsClass
+{
+    private static System.Random rng = new System.Random();
+
+    public static void Shuffle<T>(this IList<T> list)
+    {
+        int n = list.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = rng.Next(n + 1);
+            T value = list[k];
+            list[k] = list[n];
+            list[n] = value;
+        }
+    }
+}
 
 public class CupheadController : MonoBehaviour
 {
@@ -39,6 +58,8 @@ public class CupheadController : MonoBehaviour
     List<Pair> lib;
     string chestName = "";
     bool WIN = false;
+    List<bool> taken_pos; List<Vector3> pos;
+    List<string> rooms; string cur_room;
 
     void Start()
     {
@@ -47,18 +68,79 @@ public class CupheadController : MonoBehaviour
         m_camera = GameObject.Find("Main Camera");
         cam = (CameraController)m_camera.GetComponent(typeof(CameraController));
         DialogUI.Instance.Hide();
-        initAnswer();
+        init();
     }
 
-    private void initAnswer()
+    private void ResetPos()
     {
+        for (int i = 0; i < taken_pos.Count; ++i)
+            taken_pos[i] = false;
+    }
+
+    private void TickPos(Vector3 x)
+    {
+        for(int i = 0; i < taken_pos.Count; ++i)
+            if (x == pos[i])
+            {
+                taken_pos[i] = true;
+                break;
+            }
+    }
+
+    private void shuffleRoomPos()
+    {
+        ResetPos();
+        Vector3 cur_room_pos = GameObject.Find(cur_room).transform.position;
+        pos.Shuffle();
+        rooms.Shuffle();
+        TickPos(cur_room_pos);
+        for(int i =0;i<rooms.Count;++i)
+        {
+            if (rooms[i] != cur_room)
+            {
+                for (int j =0;i<pos.Count;++j)
+                {
+                    if (!taken_pos[j])
+                    {
+                        taken_pos[j] = true;
+                        GameObject select = GameObject.Find(rooms[i]);
+                        select.transform.position = pos[j];
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+    private void init()
+    {
+        cur_room = "StartRoom";
         lib = new List<Pair>();
+        taken_pos = new List<bool>();
+        rooms = new List<string>();
+        for (int i = 0; i < 9; ++i)
+            taken_pos.Add(false);
+        pos = new List<Vector3>();
+        pos.Add(new Vector3(19 + x_offset, 12 + y_offset));
+        pos.Add(new Vector3(38 + x_offset, 12 + y_offset));
+        pos.Add(new Vector3(57 + x_offset, 12 + y_offset));
+        pos.Add(new Vector3(19 + x_offset, 0 + y_offset));
+        pos.Add(new Vector3(38 + x_offset, 0 + y_offset));
+        pos.Add(new Vector3(57 + x_offset, 0 + y_offset));
+        pos.Add(new Vector3(19 + x_offset, -12 + y_offset));
+        pos.Add(new Vector3(38 + x_offset, -12 + y_offset));
+        pos.Add(new Vector3(57 + x_offset, -12 + y_offset));
+
         lib.Add(new Pair("E3", "3E", "Key to Room 3", "What animal is made up of calcium, nickel and neon?", "CaNiNe"));
         lib.Add(new Pair("E1", "1E", "Key to Room 1", "I am an odd number. Take away one letter and I become even. What number am I?", "seven"));
         lib.Add(new Pair("34", "43", "Key to Room 4", "Why is a physics book always unhappy?", "lots of problems"));
         lib.Add(new Pair("12", "21", "Key to Room 2", "If 72 x 96 = 6927, 58 x 87 = 7885, then 79 x 86 = ?", "6897"));
         lib.Add(new Pair("2M", "M2", "Key to Main Chest", "Who has the fish?", "Albert Einstein"));
         lib.Add(new Pair("4M", "M4", "Key to Main Room", "Look at this series: 53, 53, 40, 40, 27, 27, … What number should come next?", "14"));
+
+        rooms.Add("EntranceRoom"); rooms.Add("MainRoom");
+        rooms.Add("Room1"); rooms.Add("Room2");
+        rooms.Add("Room3"); rooms.Add("Room4");
     }
 
     private void FixedUpdate()
@@ -96,6 +178,7 @@ public class CupheadController : MonoBehaviour
 
     private void Teleport(string room, bool hor, int offset)
     {
+        shuffleRoomPos();
         Vector2 pos = GameObject.Find(room).transform.position;
         pos.x -= x_offset; pos.y -= y_offset;
         cam.changeCameraPosition(pos);
@@ -166,7 +249,7 @@ public class CupheadController : MonoBehaviour
     {
         DialogUI.Instance.Hide();
         Freeze = false;
-        if (input == lib[index].answer)
+        if (input.ToLower() == lib[index].answer.ToLower())
         {
             openDoor(lib[index].door);
             openDoor(lib[index].alt_door);
@@ -297,6 +380,12 @@ public class CupheadController : MonoBehaviour
             case "M4":
                 if (checkDoorStatus(valid.sprite.name, c_object))
                     Teleport("Room4", false, 2);
+                break;
+            case "FixedDoor":
+                checkDoorStatus(valid.sprite.name, c_object);
+                break;
+            case "StartDoor":
+                Teleport("EntranceRoom", true, -4);
                 break;
             default:
                 hitChest(c_object);

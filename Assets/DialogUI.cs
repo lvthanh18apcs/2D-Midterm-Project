@@ -15,6 +15,7 @@ namespace EasyUI.Dialogs
         [SerializeField] UnityEngine.UI.Text question;
         [SerializeField] UnityEngine.UI.Button button;
         [SerializeField] GameObject canvas;
+        [SerializeField] UnityEngine.UI.InputField input;
 
         GameObject player;
         GameObject cam;
@@ -54,9 +55,11 @@ namespace EasyUI.Dialogs
 
         public void Hide()
         {
+            input.text = "";
             player.GetComponent<CupheadController>().Freeze = false;
             canvas.SetActive(false);
             dialog = new Dialog();
+            
         }
 
         private void FixedUpdate()
