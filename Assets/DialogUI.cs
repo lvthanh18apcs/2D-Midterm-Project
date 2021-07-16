@@ -57,9 +57,9 @@ namespace EasyUI.Dialogs
         {
             input.text = "";
             player.GetComponent<CupheadController>().Freeze = false;
+            player.GetComponent<CupheadController>().isEsc = false;
             canvas.SetActive(false);
             dialog = new Dialog();
-            
         }
 
         private void FixedUpdate()

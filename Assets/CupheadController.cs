@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using EasyUI.Dialogs;
+using Story;
 
 static class ExtensionsClass
 {
@@ -60,6 +61,8 @@ public class CupheadController : MonoBehaviour
     bool WIN = false;
     List<bool> taken_pos; List<Vector3> pos;
     List<string> rooms; string cur_room;
+    List<string> hint_msg;
+    public bool isEsc = false;
 
     void Start()
     {
@@ -114,6 +117,7 @@ public class CupheadController : MonoBehaviour
 
     private void init()
     {
+        hint_msg = new List<string>();
         cur_room = "StartRoom";
         lib = new List<Pair>();
         taken_pos = new List<bool>();
@@ -141,6 +145,33 @@ public class CupheadController : MonoBehaviour
         rooms.Add("EntranceRoom"); rooms.Add("MainRoom");
         rooms.Add("Room1"); rooms.Add("Room2");
         rooms.Add("Room3"); rooms.Add("Room4");
+
+        hint_msg.Add("Hello..\nI'm a exceptional senior student in high school! And.. You know..");
+        hint_msg.Add("University entrance exams are coming..");
+        //hint_msg.Add("I want to have absolute score!\nBecause.. I'm exceptional..\nSo.. I came up with the greatest plan ever..");
+        //plot.Add("I'M GOING TO STEEEAAAAAAL\n...THE QUESTION SHEETS...\nOHH.... shhhhhhhhh and you're going to help me ;)");
+        //plot.Add("I have already stole the key to the house\nBut.. eh.. it's open already\nLOOK..");
+        //plot.Add("We are expected to look for the question sheets even if we have to search every corner of the house.");
+        //plot.Add("I heard there are a lots of riddles\n..which are your favourites.. ;)\nLet's go!");
+        Freeze = true;
+        StoryUI.Instance.setPlot(hint_msg).Show();
+    }
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            if (!isEsc)
+            {
+                Freeze = true;
+                isEsc = true;
+                DialogUI.Instance.setTitle("Do you want to quit?").setQuestion("Type <yes> to quit").Show();
+            }
+            else
+            {
+                isEsc = false;
+                DialogUI.Instance.Hide();
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -191,9 +222,9 @@ public class CupheadController : MonoBehaviour
 
     private void openDoor(string name)
     {
-        SpriteRenderer target = GameObject.Find(name).GetComponent<SpriteRenderer>();
-        if (target == null)
+        if (GameObject.Find(name) == null)
             return;
+        SpriteRenderer target = GameObject.Find(name).GetComponent<SpriteRenderer>();
         Object[] sprites = Resources.LoadAll("Dungeon_Tileset");
         if (target.sprite.name == tileset_name + "10")
         {
@@ -237,6 +268,14 @@ public class CupheadController : MonoBehaviour
         }
     }
 
+    private void showHint(string hint)
+    {
+        Freeze = true;
+        hint_msg.Clear();
+        hint_msg.Add(hint);
+        StoryUI.Instance.setPlot(hint_msg).Show();
+    }
+
     private bool checkDoorStatus(string sprite_name,string door)
     {
         if (sprite_name == tileset_name + "12" || sprite_name == tileset_name + "10" || sprite_name == tileset_name + "11" || sprite_name == tileset_name + "13")
@@ -249,6 +288,11 @@ public class CupheadController : MonoBehaviour
 
     public void update_input(string input)
     {
+        if (isEsc && input.Trim().ToLower() == "yes")
+        {
+            QuitGame();
+            return;
+        }
         DialogUI.Instance.Hide();
         Freeze = false;
         if (input.ToLower() == lib[index].answer.ToLower())
@@ -391,9 +435,23 @@ public class CupheadController : MonoBehaviour
             case "StartDoor":
                 Teleport("EntranceRoom", true, -4);
                 break;
+            case "keyE3 (1)":
+                showHint("this is a hint");
+                break;
             default:
                 hitChest(c_object);
                 break;
         }
+    }
+    public void QuitGame()
+    {
+        // save any game data here
+        #if UNITY_EDITOR
+        // Application.Quit() does not work in the editor so
+        // UnityEditor.EditorApplication.isPlaying need to be set to false to end the game
+        UnityEditor.EditorApplication.isPlaying = false;
+        #else
+        Application.Quit();
+        #endif
     }
 }
