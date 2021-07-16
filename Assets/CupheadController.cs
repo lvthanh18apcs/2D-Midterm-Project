@@ -131,12 +131,12 @@ public class CupheadController : MonoBehaviour
         pos.Add(new Vector3(38 + x_offset, -12 + y_offset));
         pos.Add(new Vector3(57 + x_offset, -12 + y_offset));
 
-        lib.Add(new Pair("E3", "3E", "Key to Room 3", "What animal is made up of calcium, nickel and neon?", "CaNiNe"));
-        lib.Add(new Pair("E1", "1E", "Key to Room 1", "I am an odd number. Take away one letter and I become even. What number am I?", "seven"));
-        lib.Add(new Pair("34", "43", "Key to Room 4", "Why is a physics book always unhappy?", "lots of problems"));
-        lib.Add(new Pair("12", "21", "Key to Room 2", "If 72 x 96 = 6927, 58 x 87 = 7885, then 79 x 86 = ?", "6897"));
-        lib.Add(new Pair("2M", "M2", "Key to Main Chest", "Who has the fish?", "Albert Einstein"));
-        lib.Add(new Pair("4M", "M4", "Key to Main Room", "Look at this series: 53, 53, 40, 40, 27, 27, … What number should come next?", "14"));
+        lib.Add(new Pair("E3", "3E", "Chemistry", "What animal is made up of calcium, nickel and neon?", "CaNiNe"));
+        lib.Add(new Pair("E1", "1E", "Mathematics I", "I am an odd number. Take away one letter and I become even. What number am I?", "seven"));
+        lib.Add(new Pair("34", "43", "Physics", "Why is a physics book always unhappy?", "lots of problems"));
+        lib.Add(new Pair("12", "21", "Mathematics III", "If 72 x 96 = 6927, 58 x 87 = 7885, then 79 x 86 = ?", "6897"));
+        lib.Add(new Pair("2M", "M2", "Tricky riddle", "Who has the fish?", "Albert Einstein"));
+        lib.Add(new Pair("4M", "M4", "Mathematics II", "Look at this series: 53, 53, 40, 40, 27, 27, … What number should come next?", "14"));
 
         rooms.Add("EntranceRoom"); rooms.Add("MainRoom");
         rooms.Add("Room1"); rooms.Add("Room2");
