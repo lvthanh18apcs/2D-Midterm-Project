@@ -9,7 +9,6 @@ public class SoundManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        walk = Resources.Load<AudioClip>("walk");
         glory = Resources.Load<AudioClip>("openchest");
         hit = Resources.Load<AudioClip>("hitchest");
         intro = Resources.Load<AudioClip>("intro");
@@ -30,9 +29,6 @@ public class SoundManager : MonoBehaviour
     {
         switch (clip)
         {
-            case "walk":
-                audioSrc.PlayOneShot(walk);
-                break;
             case "outro":
                 audioSrc.PlayOneShot(outro);
                 break;

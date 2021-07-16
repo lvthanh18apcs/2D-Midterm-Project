@@ -210,23 +210,19 @@ public class CupheadController : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
             {
-                //SoundManager.playSound("walk");
                 velo.y = speed;
             }
             else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
             {
-                //SoundManager.playSound("walk");
                 velo.x = -speed;
                 flip.y = 180;
             }
             else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
             {
-                //SoundManager.playSound("walk");
                 velo.y = -speed;
             }
             else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
             {
-                //SoundManager.playSound("walk");
                 velo.x = speed;
                 flip.y = 0;
             }
