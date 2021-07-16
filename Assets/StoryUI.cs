@@ -17,20 +17,16 @@ namespace Story
         string to_be_seen = "";
         int i = -1;
 
+        public static StoryUI Instance;
+
         void Awake()
         {
+            Instance = this;
             button.onClick.RemoveAllListeners();
             button.onClick.AddListener(nextPage);
             player = GameObject.Find("Cuphead");
             player.GetComponent<CupheadController>().Freeze = true;
-
             plot = new List<string>();
-            plot.Add("Hello..\nI'm a exceptional senior student in high school! And.. You know\nUniversity entrance exams are coming..");
-            plot.Add("I want to have absolute score!\nBecause.. I'm exceptional..\nSo.. I came up with the greatest plan ever..");
-            plot.Add("I'M GOING TO STEEEAAAAAAL\n...THE QUESTION SHEETS...\nOHH.... shhhhhhhhh and you're going to help me ;)");
-            plot.Add("I have already stole the key to the house\nBut.. eh.. it's open already\nLOOK..");
-            plot.Add("We are expected to look for the question sheets even if we have to search every corner of the house.");
-            plot.Add("I heard there are a lots of riddles\n..which are your favourites.. ;)\nHelp me!");
         }
 
         public void Show()
@@ -49,15 +45,26 @@ namespace Story
             }
         }
 
+        public StoryUI setPlot(List<string> msg)
+        {
+            this.plot.Clear();
+            i = -1;
+            count = 0;
+            plot = new List<string>(msg);
+            if (count == plot.Count - 1)
+                button.GetComponentInChildren<UnityEngine.UI.Text>().text = "X";
+            else
+                button.GetComponentInChildren<UnityEngine.UI.Text>().text = ">";
+            return Instance;
+        }
+
         public void nextPage()
         {
             if (i < plot[count].Length-1)
                 return;
             ++count; to_be_seen = ""; i = -1;
             if (count == plot.Count - 1)
-            {
                 button.GetComponentInChildren<UnityEngine.UI.Text>().text = "X";
-            }
             if (count == plot.Count)
                 Hide();
             else
