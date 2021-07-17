@@ -381,8 +381,10 @@ public class CupheadController : MonoBehaviour
         if (WIN && chest == "WINCHEST")
         {
             Freeze = true;
+            SoundManager.playSound("stop");
             SoundManager.playSound("outro");
             SoundManager.playSound("bravo");
+            GameObject.Find("MainRoom").GetComponent<Animator>().SetBool("win", true);
             anim.SetBool("win", true);
             openChest(chest);
         }
@@ -392,9 +394,9 @@ public class CupheadController : MonoBehaviour
         index = -1;
         chestName = "";
         string chestStatus = GameObject.Find(chest).GetComponent<SpriteRenderer>().sprite.name;
-        SoundManager.playSound("hit");
         if (chestStatus == "Items_3" || chestStatus == "Items_0")
         {
+            SoundManager.playSound("hit");
             showInfo("I have already looted this chest");
             return;
         }
@@ -407,9 +409,11 @@ public class CupheadController : MonoBehaviour
                 chestName = chest;
                 break;
             }
-        if (index == -1 && chest == "WINCHEST")
+        if (index == -1)
         {
-            showInfo("There must be something in here");
+            SoundManager.playSound("hit");
+            if (chest == "WINCHEST")
+                showInfo("There must be something in here");
             return;
         }
         DialogUI.Instance.setTitle(lib[index].title).setQuestion(lib[index].question).Show();

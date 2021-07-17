@@ -48,6 +48,9 @@ public class SoundManager : MonoBehaviour
             case "bravo":
                 audioSrc.PlayOneShot(bravo);
                 break;
+            case "stop":
+                audioSrc.Stop();
+                break;
             default:
                 break;
         }
