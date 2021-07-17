@@ -3,11 +3,17 @@ guid: c1859bde89f79044c965a8d748605caa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2687218093438485211
-    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_0
+      213: 8033092973025764044
+    second: Items_0
   - first:
-      213: -3415834475516072587
-    second: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_1
+      213: 4337684191699249041
+    second: Items_1
+  - first:
+      213: -488721925442295091
+    second: Items_2
+  - first:
+      213: -7573354855677281409
+    second: Items_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,7 +115,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_0
+      name: Items_0
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1711
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc223e07f774b7f60800000000000000
+      internalID: 8033092973025764044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Items_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1711
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197af025acc823c30800000000000000
+      internalID: 4337684191699249041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Items_2
       rect:
         serializedVersion: 2
         x: 403
@@ -123,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52db89aa16515bad0800000000000000
-      internalID: -2687218093438485211
+      spriteID: dca21188ff5b739f0800000000000000
+      internalID: -488721925442295091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - The Legend of Zelda A Link to the Past - Dungeon Tiles_1
+      name: Items_3
       rect:
         serializedVersion: 2
         x: 403
@@ -144,8 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57de45374a48890d0800000000000000
-      internalID: -3415834475516072587
+      spriteID: f7b306552e906e690800000000000000
+      internalID: -7573354855677281409
       vertices: []
       indices: 
       edges: []
