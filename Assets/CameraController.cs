@@ -6,7 +6,7 @@ public class CameraController : MonoBehaviour
 {
     // Start is called before the first frame update
     public Vector3 target;
-    public float smoothSpeed = 0.125f;
+    public float smoothSpeed = 0.025f;
 
     void Start()
     {

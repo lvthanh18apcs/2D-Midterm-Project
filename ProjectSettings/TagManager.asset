@@ -41,15 +41,3 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 3651965901
-    locked: 0
-  - name: Object
-    uniqueID: 2233220627
-    locked: 0
-  - name: Player
-    uniqueID: 111877841
-    locked: 0
-  - name: Dialog
-    uniqueID: 1372361115
-    locked: 0
