@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public static AudioClip walk, glory, hit, intro, dump, bravo, outro, bg;
+    public static AudioClip walk, glory, hit, intro, dump, bravo, outro, bg, menu;
     static AudioSource audioSrc;
     // Start is called before the first frame update
+
     void Start()
     {
+        DontDestroyOnLoad(transform.gameObject);
+        menu = Resources.Load<AudioClip>("menu");
         bg = Resources.Load<AudioClip>("background");
         glory = Resources.Load<AudioClip>("openchest");
         hit = Resources.Load<AudioClip>("hitchest");
@@ -18,6 +21,8 @@ public class SoundManager : MonoBehaviour
         outro = Resources.Load<AudioClip>("outro");
 
         audioSrc = GetComponent<AudioSource>();
+        audioSrc.clip = menu;
+        audioSrc.Play();
     }
 
     // Update is called once per frame
@@ -26,8 +31,15 @@ public class SoundManager : MonoBehaviour
         
     }
 
+    public static void changeVol(float val)
+    {
+        audioSrc.volume = val;
+    }
+
     public static void playSound(string clip)
     {
+        if (audioSrc == null)
+            return;
         switch (clip)
         {
             case "outro":
@@ -50,6 +62,10 @@ public class SoundManager : MonoBehaviour
                 break;
             case "stop":
                 audioSrc.Stop();
+                break;
+            case "bg":
+                audioSrc.clip = bg;
+                audioSrc.Play();
                 break;
             default:
                 break;

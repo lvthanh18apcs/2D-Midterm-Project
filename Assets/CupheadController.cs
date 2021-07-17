@@ -71,6 +71,7 @@ public class CupheadController : MonoBehaviour
         m_camera = GameObject.Find("Main Camera");
         cam = (CameraController)m_camera.GetComponent(typeof(CameraController));
         DialogUI.Instance.Hide();
+        SoundManager.playSound("bg");
         init();
     }
 
