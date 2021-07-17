@@ -13,21 +13,35 @@ However, the building containing the exam papers is a well-known maze with many 
 
 ## Unity version 2020.3.11f1 LTS
 
-## Resource reference
+## Resource references
 Resources:
+
 https://www.spriters-resource.com/nes/legendofzelda/sheet/8376/
+
 https://www.spriters-resource.com/snes/legendofzeldaalinktothepast/sheet/28731/
+
 https://www.spriters-resource.com/pc_computer/cupheaddontdealwiththedevil/sheet/97184/
 
 Codes:
+
 Floating text: 
+
 https://www.youtube.com/watch?v=lKEKTWK9efE
+
 Question canvas: 
+
 https://www.youtube.com/watch?v=4n6RT805rCc
+
 https://www.youtube.com/watch?v=guelZvubWFY
+
 https://www.youtube.com/watch?v=vTMi6hb3QF0
+
 Smooth camera follow:
+
 https://www.youtube.com/watch?v=MFQhpwc6cKE&ab_channel=Brackeys
+
 Sound & sfx:
+
 https://www.youtube.com/watch?v=8pFlnyfRfRc
+
 https://studiomdhr.bandcamp.com/album/cuphead-original-soundtrack
