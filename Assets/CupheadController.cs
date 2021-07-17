@@ -518,9 +518,6 @@ public class CupheadController : MonoBehaviour
             case "StartDoor":
                 Teleport("EntranceRoom", true, -4);
                 break;
-            case "keyE3 (1)":
-                showHint("this is a hint");
-                break;
             default:
                 hitChest(c_object);
                 break;
