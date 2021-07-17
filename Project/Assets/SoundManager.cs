@@ -67,6 +67,10 @@ public class SoundManager : MonoBehaviour
                 audioSrc.clip = bg;
                 audioSrc.Play();
                 break;
+            case "menu":
+                audioSrc.clip = menu;
+                audioSrc.Play();
+                break;
             default:
                 break;
         }

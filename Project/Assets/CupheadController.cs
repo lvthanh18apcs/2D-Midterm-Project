@@ -298,6 +298,7 @@ public class CupheadController : MonoBehaviour
         {
             GameObject floatingPrefab = Instantiate(floatingText, transform.position, Quaternion.identity);
             floatingPrefab.GetComponentInChildren<TextMesh>().text = info;
+            floatingPrefab.layer = 2;
             Destroy(floatingPrefab, 1f);
         }
     }
