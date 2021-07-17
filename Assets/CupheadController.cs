@@ -142,30 +142,35 @@ public class CupheadController : MonoBehaviour
         lib.Add(new Pair("34", "43", "Physics", "Why is a physics book always unhappy?", "lots of problems"));
         lib.Add(new Pair("12", "21", "Mathematics", "If 72 x 96 = 6927, 58 x 87 = 7885, then 79 x 86 = ?", "6897"));
         lib.Add(new Pair("2M", "M2", "Tricky riddle", "Who has the fish?", "Albert Einstein"));
-        lib.Add(new Pair("4M", "M4", "Mathematics", "Look at this series: 53, 53, 40, 40, 27, 27, � What number should come next?", "14"));
+        lib.Add(new Pair("4M", "M4", "Mathematics", "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?", "14"));
 
         //hint chest
         lib.Add(new Pair("II", "II", "Mathematics", "A farmer has 17 sheep and all but 9 die. How many are left?", "9"));
         lib.Add(new Pair("NN", "NN", "Science", "What is full of holes but still holds water?", "sponge"));
-        lib.Add(new Pair("SS", "SS", "Mathematics", "If two�s company and three�s a crowd, what are four and five?", "9"));
+        lib.Add(new Pair("SS", "SS", "Mathematics", "If two's company and three's a crowd, what are four and five?", "9"));
         lib.Add(new Pair("YY", "YY", "Geography", "I am a rock bigger than Venus but smaller than Uranus. What am I?", "Earth"));
 
         //dummy chest
-        lib.Add(new Pair("", "", "Physics", "What planet has the shortest year?", "Mercury"));
-        lib.Add(new Pair("", "", "", "", ""));
-        lib.Add(new Pair("", "", "", "", ""));
-        lib.Add(new Pair("", "", "", "", ""));
-        lib.Add(new Pair("", "", "Chemistry", "What is the most uninteresting of all the periodic elements?", "Boron"));
-        lib.Add(new Pair("", "", "Chemistry", "What can eat a lot of iron without getting sick?", "rust"));
-        lib.Add(new Pair("", "", "Mathematics", "How many sides does a circle have?", "2"));
-        lib.Add(new Pair("", "", "Biology", "What animal lives longest in zoos?", "turtle"));
-        lib.Add(new Pair("", "", "Chemistry", "What kind of chemical element hates to be a follower?", "Lead"));
-        lib.Add(new Pair("", "", "", "", ""));
-        lib.Add(new Pair("", "", "Mathematics", "I am a three-digit number. My tens digit is six more than my ones digit. My hundreds digit is eight less than my tens digit. What number am I?", "193"));
-        lib.Add(new Pair("", "", "", "", ""));
-        lib.Add(new Pair("", "", "", "", ""));
-        lib.Add(new Pair("", "", "", "", ""));
-        lib.Add(new Pair("", "", "", "", ""));
+        lib.Add(new Pair("Da", "aD", "Physics", "What planet has the shortest year?", "Mercury"));
+        lib.Add(new Pair("Db", "bD", "Science", "What kind of tree can fit into your hand?", "palm tree"));
+        lib.Add(new Pair("Dc", "cD", "Physics", "What is the loneliest of all physics concepts?", "singularity"));
+        lib.Add(new Pair("Dd", "dD", "Geography", "How many seas in the world touch at least three continents?", "1"));
+        lib.Add(new Pair("De", "eD", "Chemistry", "What is the most uninteresting of all the periodic elements?", "Boron"));
+        lib.Add(new Pair("Df", "fD", "Chemistry", "What can eat a lot of iron without getting sick?", "rust"));
+        lib.Add(new Pair("Dg", "gD", "Mathematics", "How many sides does a circle have?", "2"));
+        lib.Add(new Pair("Dh", "hD", "Biology", "What animal lives longest in zoos?", "turtle"));
+        lib.Add(new Pair("Di", "iD", "Chemistry", "What kind of chemical element hates to be a follower?", "Lead"));
+        lib.Add(new Pair("Dj", "jD", "Science", "What has 3 feet but cannot walk?", "yardstick"));
+        lib.Add(new Pair("Dk", "kD", "Mathematics", "I am a three-digit number. My tens digit is six more than my ones digit. My hundreds digit is eight less than my tens digit. What number am I?", "193"));
+        lib.Add(new Pair("Dl", "lD", "Geography", "Whats the name of the continent Which contains Nigeria, Libya, Rwanda, Cameroon, Mali and Namibia ?", "Africa"));
+        lib.Add(new Pair("Dm", "mD", "Tricky", "What 5-letter word becomes shorter when you add two letters to it?", "short"));
+        lib.Add(new Pair("Dn", "nD", "Tricky", "What kind of room has no windows or doors?", "mushroom"));
+        lib.Add(new Pair("Do", "oD", "Science", "It's been around for millions of years, but its no more than a month old. What is it?", "moon"));
+        lib.Add(new Pair("Dp", "pD", "Mathematics", "What kinds of trees are mirror images?", "Symmetries"));
+        lib.Add(new Pair("Dq", "qD", "Tricky", "What goes around the world and stays in a corner?", "stamp"));
+        lib.Add(new Pair("Dr", "rD", "Sport", "Name the only sport in which the ball is always in possession of the team on defense, and the offensive team can score without touching the ball?", "baseball"));
+        lib.Add(new Pair("Ds", "sD", "Mathematics", "What do you call an angle which is adorable?", "acute angle"));
+        lib.Add(new Pair("Dt", "tD", "Tricky", "No sooner spoken than broken. What is it?", "silence"));
         /*
          lib.Add(new Pair("","","Mathematics IV","You have 50 biscuits. How many times can you subtract 5 from 50 biscuits?","once"));
          */
@@ -176,11 +181,12 @@ public class CupheadController : MonoBehaviour
 
         hint_msg.Add("Hello..\nI'm a exceptional senior student in high school! And.. You know..");
         hint_msg.Add("University entrance exams are coming..");
-        //hint_msg.Add("I want to have absolute score!\nBecause.. I'm exceptional..\nSo.. I came up with the greatest plan ever..");
-        //plot.Add("I'M GOING TO STEEEAAAAAAL\n...THE QUESTION SHEETS...\nOHH.... shhhhhhhhh and you're going to help me ;)");
-        //plot.Add("I have already stole the key to the house\nBut.. eh.. it's open already\nLOOK..");
-        //plot.Add("We are expected to look for the question sheets even if we have to search every corner of the house.");
-        //plot.Add("I heard there are a lots of riddles\n..which are your favourites.. ;)\nLet's go!");
+        hint_msg.Add("I want to have absolute score!\nbecause.. I'm exceptional..\nso.. I came up with the greatest plan ever..");
+        hint_msg.Add("I'm going to steeeaaaaaal\n...the question sheets...\nohh.... shhhhhhhhh and you're going to help me ;)");
+        hint_msg.Add("I have already stole the key to the house\nbut.. eh.. it's open already\nlook..");
+        hint_msg.Add("We are expected to look for the question sheets even if we have to search every corner of the house.");
+        hint_msg.Add("I heard there are a lots of riddles\n..which are your favourites.. ;)\nlet's go!");
+        hint_msg.Add("Oh and... W A S D to move, Esc to quit\nAlright.. Let's go");
         Freeze = true;
         StoryUI.Instance.setPlot(hint_msg).Show();
     }
@@ -357,16 +363,38 @@ public class CupheadController : MonoBehaviour
                     WIN = true;
                     break;
                 case "II":
-                    showInfo("The Swede keeps dogs.");
+                    showHint("The Swede keeps dogs.");
                     break;
                 case "NN":
-                    showInfo("The Pall Mall smoker keeps birds.");
+                    showHint("The Pall Mall smoker keeps birds.");
                     break;
                 case "SS":
-                    showInfo("The German smokes Prince.");
+                    showHint("The German smokes Prince.");
                     break;
                 case "YY":
-                    showInfo("The Norwegian lives next to the blue house.");
+                    showHint("The Norwegian lives next to the blue house.");
+                    break;
+                case "Da":
+                case "Db":
+                case "Dc":
+                case "Dd":
+                case "De":
+                case "Df":
+                case "Dg":
+                case "Dh":
+                case "Di":
+                case "Dj":
+                case "Dk":
+                case "Dl":
+                case "Dm":
+                case "Dn":
+                case "Do":
+                case "Dp":
+                case "Dq":
+                case "Dr":
+                case "Ds":
+                case "Dt":
+                    showInfo("Nothing here...");
                     break;
                 default:
                     SoundManager.playSound("dump");
